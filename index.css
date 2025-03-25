@@ -90,20 +90,20 @@
     }
 
     #home h1 p:nth-child(odd) {
-      color: #FDDA30;
+      color: #03045E;
     }
 
     #home h1 p:nth-child(even) {
       margin-top: -20px;
       padding-left: 20px;
-      color: #5d7e7d;
+      color: #00B4D8;
     }
 
     #home>p {
       margin-top: 20px;
       width: 70%;
       /* color: #5d7e7d; */
-      color: white;
+      color: #CAF0F8;
       font-size: 20px;
     }
 

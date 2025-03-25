@@ -286,6 +286,8 @@
       grid-template-rows: 1fr 4fr;
       padding: 30px;
       height: auto;
+
+      margin-bottom: 10px;
     }
 
     #contact-me h2 {
@@ -294,11 +296,14 @@
     }
 
     #form {
-      padding: 10px 30px;
-
+      padding: 50px 30px;
+width: 100%;
       background-color: #FFFFFF00;
       border-radius: 10px;
       height: auto;
+      border: 3px solid #CAF0F8;
+      border-radius: 10px;
+    
     }
 
     #contact-me section {
@@ -312,7 +317,7 @@
 
     #contact-me section input,
     #contact-me section textarea {
-      background-color: #E6E6E6;
+      background-color: #CAF0F8;
       border: 0;
       border-radius: 5px;
       width: 100%;

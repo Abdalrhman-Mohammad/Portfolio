@@ -126,7 +126,7 @@
       grid-template-columns: 50% 50%;
       column-gap: 20px;
       padding: 30px;
-      height: auto;
+      height: 520px;
     }
 
     #about h2 {
@@ -152,9 +152,11 @@
     #education,
     #experience {
       height: auto;
-      padding-left: 10px;
-      padding-right: 10px;
-      background-color: #FFFFFFdf;
+      padding-left: 20px;
+      padding-right: 20px;
+      /* background-color: #FFFFFFdf; */
+      border: 3px solid #CAF0F8;
+
       border-radius: 10px;
     }
 

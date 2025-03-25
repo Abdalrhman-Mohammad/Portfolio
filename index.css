@@ -175,7 +175,9 @@
       justify-self: center;
       color: #045f8d;
     }
-
+    #projects h3 {
+      color: #0084c5;
+    }
     #web-project,
     #mobile-project {
       height: 300px;
@@ -224,9 +226,10 @@
     #web-project #description,
     #mobile-project #description {
       padding: 5%;
-      color: rgb(62, 59, 59);
+      color: #5d7e7d;
     }
 
+   
     #mobile-project img,
     #web-project img {
       position: absolute;

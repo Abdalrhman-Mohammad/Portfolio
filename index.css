@@ -10,7 +10,7 @@
       height: 100%;
       background-color: #010101;
       margin: 0px;
-
+      padding:0 17.5%;
     }
 
 
@@ -66,17 +66,9 @@
     }
     }
 
-    main {
-      padding-right: 15%;
-      padding-left: 15%;
-    }
+   
 
-    @media (max-width: 700px) {
-      main {
-        padding-right: 5%;
-        padding-left: 5%;
-      }
-    }
+   
 
     #home {
       height: 500px;
@@ -102,14 +94,10 @@
     #home>p {
       margin-top: 20px;
       width: 70%;
-      /* color: #5d7e7d; */
       color: #CAF0F8;
       font-size: 20px;
     }
 
-    /* #home p strong {
-      color: #FDDA30;
-    } */
 
     @media (max-width: 700px) {
       #home {
@@ -123,10 +111,10 @@
 
     #about {
       display: grid;
-      grid-template-columns: 50% 50%;
+      grid-template-columns:1fr 1fr;
       column-gap: 20px;
-      padding: 30px;
-      height: 520px;
+      width: 100%;
+      height: auto;
     }
 
     #about h2 {
@@ -154,7 +142,6 @@
       height: auto;
       padding-left: 20px;
       padding-right: 20px;
-      /* background-color: #FFFFFFdf; */
       
       border: 3px solid #CAF0F8;
       border-radius: 10px;
@@ -181,7 +168,6 @@
       grid-template-rows: 1fr 4fr 4fr;
       align-items: center;
       justify-items: center;
-      padding: 30px;
       height: auto;
     }
 
@@ -222,7 +208,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      /* mix-blend-mode: darken; */
       position: relative;
     }
 
@@ -251,7 +236,6 @@
 
     #mobile-project #mobile-game {
       height: 52%;
-      /* padding-top: 7%; */
     }
 
 
@@ -284,7 +268,6 @@
     #contact-me {
       display: grid;
       grid-template-rows: 1fr 4fr;
-      padding: 30px;
       height: auto;
 
       margin-bottom: 10px;
@@ -297,7 +280,6 @@
 
     #form {
       padding: 50px 30px;
-width: 100%;
       background-color: #FFFFFF00;
       border-radius: 10px;
       height: auto;

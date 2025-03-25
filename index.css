@@ -14,17 +14,18 @@
     }
 
 
-
+    header{
+      display: flex;
+      justify-content: center;
+    }
     nav {
-      background-color: white;
-      width: 100%;
+      background-color: #010101;
+      width: 65%;
       display: flex;
       justify-items: center;
       align-items: center;
       padding-top: 4px;
       padding-bottom: 4px;
-      padding-left: 30px;
-      padding-right: 30px;
       box-shadow: 0px 0px 10px black;
       position: fixed;
       box-sizing: border-box;
@@ -35,11 +36,13 @@
     nav * {
       padding: 8px;
       margin: 4px 2px;
-      color: black;
+      color: white;
       font-weight: 600;
       text-decoration: none;
     }
-
+    nav img{
+      display: none;
+    }
     nav a {
       flex-grow: 1;
     }
@@ -48,16 +51,19 @@
       flex-grow: 20;
     }
 
-    @media (max-width: 700px) {
-      nav a {
-        padding: 4px;
-        font-size: 12px;
-      }
+    @media (max-width: 900px) {
 
       nav p {
         padding: 4px;
-        font-size: 12px;
+        font-size:14px;
       }
+      nav a{
+      display: none;
+    }
+      nav img{
+      display: inline;
+      max-width: 30px;
+    }
     }
 
     main {

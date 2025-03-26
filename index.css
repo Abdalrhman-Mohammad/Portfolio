@@ -7,13 +7,17 @@
     }
 
     body {
-      height: 100%;
+      height: auto;
       background-color: #010101;
       margin: 0px;
       padding:0 17.5%;
     }
 
-
+  @media (max-width: 900px) {
+    body {
+        padding:0 10%;
+    }
+  }
     header{
       display: flex;
       justify-content: center;
@@ -31,7 +35,11 @@
       box-sizing: border-box;
       z-index: 2;
     }
-
+    @media (max-width: 900px) {
+      nav {
+        width: 80%;
+      }
+    }
 
     nav * {
       padding: 8px;
@@ -182,6 +190,7 @@
     #mobile-project {
       height: 300px;
       width: 100%;
+      box-sizing: border-box;
       margin-top: 20px;
       position: relative;
       display: grid;

@@ -110,7 +110,7 @@
 }
     #home {
       height: 500px;
-      padding: 10%;
+      padding:0  10%;
     }
 
 
@@ -153,6 +153,7 @@
       column-gap: 20px;
       width: 100%;
       height: auto;
+      padding-bottom:5%;
     }
 
     #about h2 {
@@ -206,6 +207,7 @@
       grid-template-rows: 1fr 4fr 4fr;
       align-items: center;
       justify-items: center;
+      padding:5% 0  ;
       height: auto;
     }
 
@@ -310,6 +312,7 @@
       display: grid;
       grid-template-rows: 1fr 4fr;
       height: auto;
+      padding:5% 0  ;
 
       margin-bottom: 10px;
     }

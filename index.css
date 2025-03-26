@@ -84,19 +84,20 @@
     #showlist:hover{
       cursor: pointer;
     }
-    #navlist{
-      /* -webkit-backdrop-filter: blur(5px); */
-      backdrop-filter: blur(5px);
-      height: 100%;
-      width: 100%;
-      position: fixed;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-#navlist a{
+    #navlist {
+  /* -webkit-backdrop-filter: blur(5px); */
+  backdrop-filter: blur(5px);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: backdrop-filter 1s;
+}
+#navlist a {
   color: white;
-  width: 65%;
+  width: 0%;
   text-align: center;
   text-justify: newspaper;
   align-content: center;
@@ -104,13 +105,9 @@
   height: 70px;
   box-sizing: border-box;
   border: 2px solid white;
-  margin:5px 0;
+  margin: 5px 0;
+  transition: width 1s;
 }
-@media (max-width: 900px) {
-    #navlist a {
-        width: 80%;
-    }
-  }
     #home {
       height: 500px;
       padding: 10%;
